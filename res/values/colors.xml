@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Smart DUET Colors -->
+
+    <color name="primary">#267326</color>
+    <color name="primary_dark">#08306B</color>
+    <color name="secondary">#6A4CAF</color>
+
+    <color name="background">#F4F7FC</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="text_primary">#17202A</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_light">#9E9E9E</color>
+    <color name="success_green">#2E7D32</color>
+    <color name="error_red">#C62828</color>
+    <color name="drawer_blue">#0B2340</color>
+    <color name="drawer_selected">#1769E8</color>
+    <color name="drawer_text">#FFFFFF</color>
+    <color name="drawer_icon">#FFFFFF</color>
+
+    <!-- Existing colors -->
+
+    <color name="bottom_nav_color">#FFFFFF</color>
+
+    <!-- Active item indicator -->
+    <color name="itemActiveIndicatorColor">#E3EEFF</color>
+
+    <!-- Bottom navigation text/icon colors -->
+    <color name="bottom_nav_active">#1E5AA8</color>
+    <color name="bottom_nav_inactive">#6B7280</color>
+
+</resources>

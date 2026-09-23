@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style
+        name="Theme.SmartDUETAdmissionSystem"
+        parent="Theme.Material3.Light.NoActionBar">
+
+        <item name="colorPrimary">#0D47A1</item>
+        <item name="colorSecondary">#0D47A1</item>
+
+        <item name="android:statusBarColor">#6A4CAF</item>
+        <item name="android:navigationBarColor">#F4F7FC</item>
+
+        <item name="android:fontFamily">sans</item>
+
+    </style>
+
+</resources>

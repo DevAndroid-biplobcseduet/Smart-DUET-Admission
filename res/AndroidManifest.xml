@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Smart DUET Admission"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartDUETAdmissionSystem">
+
+        <!-- Login / Launcher -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <!-- Register -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <!-- Main Dashboard -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- Profile -->
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+
+        <!-- Edit Profile -->
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+
+        <!-- Eligibility -->
+        <activity
+            android:name=".EligibilityActivity"
+            android:exported="false" />
+
+        <!-- Departments -->
+        <activity
+            android:name=".DepartmentsActivity"
+            android:exported="false" />
+
+        <!-- Department Details -->
+        <activity
+            android:name=".DepartmentDetailsActivity"
+            android:exported="false" />
+
+        <!-- Notice -->
+        <activity
+            android:name=".NoticeActivity"
+            android:exported="false" />
+        <!-- Admission Application -->
+        <activity
+            android:name=".AdmissionApplicationActivity"
+            android:exported="false" />
+        <!-- Application Tracker -->
+        <activity
+            android:name=".ApplicationTrackerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdmitCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <!-- Syllabus -->
+        <activity
+            android:name=".SyllabusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ApplicationManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentVerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdmitCardManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdmitCardManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResultManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SyllabusManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentDashboardActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
