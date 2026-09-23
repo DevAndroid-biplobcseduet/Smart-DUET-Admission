@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- MAIN MENU -->
+
+    <group android:id="@+id/group_main">
+
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Dashboard" />
+
+        <item
+            android:id="@+id/nav_eligibility"
+            android:icon="@drawable/ic_verified"
+            android:title="Eligibility Check" />
+
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/ic_notifications"
+            android:title="Admission Notice" />
+
+        <item
+            android:id="@+id/nav_department"
+            android:icon="@drawable/ic_department"
+            android:title="Department Info" />
+
+    </group>
+
+
+    <!-- ADMISSION -->
+
+    <group
+        android:id="@+id/group_admission"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_apply"
+            android:icon="@drawable/ic_apply"
+            android:title="Apply for Admission" />
+
+        <item
+            android:id="@+id/nav_tracker"
+            android:icon="@drawable/ic_status"
+            android:title="Application Status" />
+
+        <item
+            android:id="@+id/nav_admit_card"
+            android:icon="@drawable/ic_admit_card"
+            android:title="Admit Card" />
+
+        <item
+            android:id="@+id/nav_result"
+            android:icon="@drawable/ic_result"
+            android:title="View Result" />
+
+        <item
+            android:id="@+id/nav_syllabus"
+            android:icon="@drawable/ic_syllabus"
+            android:title="Syllabus" />
+
+    </group>
+
+</menu>
